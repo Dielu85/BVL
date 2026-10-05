@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="fireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="100%" stop-color="#450a0a" />
+    </linearGradient>
+  </defs>
+  <!-- Escudo de Bomberos -->
+  <path d="M50 5 L85 20 V50 C85 75 50 95 50 95 C50 95 15 75 15 50 V20 Z" fill="url(#shieldGrad)" stroke="#f59e0b" stroke-width="4" stroke-linejoin="round" />
+  <!-- Llama central -->
+  <path d="M50 25 C45 35 35 45 40 58 C42 63 47 66 50 66 C53 66 58 63 60 58 C65 45 55 35 50 25 Z" fill="url(#fireGrad)" />
+  <path d="M50 38 C47 45 42 50 45 58 C46 61 48 62 50 62 C52 62 54 61 55 58 C58 50 53 45 50 38 Z" fill="#fef08a" />
+  <!-- Número 12 -->
+  <rect x="30" y="68" width="40" height="18" rx="5" fill="#0f172a" stroke="#f59e0b" stroke-width="2" />
+  <text x="50" y="82" fill="#fbbf24" font-family="Arial, sans-serif" font-weight="900" font-size="14" text-anchor="middle">12</text>
+</svg>
